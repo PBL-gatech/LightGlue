@@ -57,7 +57,7 @@ if __name__ == "__main__":
     parser.add_argument(
         "--device",
         choices=["auto", "cuda", "cpu", "mps"],
-        default="auto",
+        default="cuda",
         help="device to benchmark on",
     )
     parser.add_argument("--compile", action="store_true", help="Compile LightGlue runs")
